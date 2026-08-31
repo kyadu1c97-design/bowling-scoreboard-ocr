@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+
+# Large input videos
+input/*.mp4
+input/*.avi
+input/*.mov
+input/*.mkv
+input/*.webm
+input/*.wmv
+
+# Generated frames
+frames/
+output/frames/
+output/extracted_frames/
+
+# Generated OCR cells
+output/cells/
+output/grid_cells/
+
+# Generated images
+output/detected_scoreboard.jpg
+output/scoreboard_grid.jpg
+output/preprocessed_scoreboard.jpg
+
+# ML models
+*.pth
+*.pt
+*.onnx
+*.bin
+*.ckpt
+models/
+weights/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.cache

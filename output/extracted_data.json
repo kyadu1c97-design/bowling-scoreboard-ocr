@@ -1,0 +1,129 @@
+{
+    "video": "bowling_scoreboard.mp4",
+    "fps": 30.0,
+    "total_frames": 1735,
+    "resolution": {
+        "width": 1920,
+        "height": 1080
+    },
+    "duration_seconds": 57.83,
+    "frames_sampled": 58,
+    "test_frames_processed": 2,
+    "scoreboard": {
+        "J": {
+            "balls": [
+                null,
+                null,
+                null,
+                "3",
+                "4",
+                null,
+                null,
+                null,
+                null,
+                "70"
+            ],
+            "ttl": null
+        },
+        "V": {
+            "balls": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "ttl": null
+        },
+        "P": {
+            "balls": [
+                null,
+                null,
+                "3",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "ttl": null
+        },
+        "T": {
+            "balls": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "ttl": null
+        }
+    },
+    "players_detected": [
+        {
+            "player": "TARUN",
+            "x": 166,
+            "y": 13,
+            "confidence": 0.8877311127047283
+        }
+    ],
+    "raw_ocr": [
+        "TARUN",
+        "0",
+        "2",
+        "X",
+        "15",
+        "3]",
+        "0",
+        "28",
+        "I4Z936",
+        "0",
+        "6 11 /18-",
+        "7",
+        "25",
+        "33",
+        "33"
+    ],
+    "consensus": [
+        {
+            "row": "j_action",
+            "column": 5,
+            "text": "3",
+            "votes": 2,
+            "confidence": 1.0
+        },
+        {
+            "row": "j_action",
+            "column": 6,
+            "text": "4",
+            "votes": 2,
+            "confidence": 1.0
+        },
+        {
+            "row": "j_action",
+            "column": 11,
+            "text": "70",
+            "votes": 2,
+            "confidence": 0.892
+        },
+        {
+            "row": "p_action",
+            "column": 4,
+            "text": "3",
+            "votes": 2,
+            "confidence": 0.978
+        }
+    ]
+}
